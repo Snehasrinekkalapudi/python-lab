@@ -1,0 +1,14 @@
+class student:
+	branch='cse'
+	def stu_details(self,rno,name):
+		self.__r=rno
+		self.n=name
+	def display(self):
+		print(self.__r)
+		print(self.n)
+		print(student.branch)
+s=student()
+s.stu_details(45,"ravi")
+s.display()
+print(s.branch)
+print(s.__r)
