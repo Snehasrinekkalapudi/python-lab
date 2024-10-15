@@ -1,0 +1,9 @@
+class Animal():
+	def first(self):
+		print("Animals are:")
+class Dog(Animal):
+	def second(self):
+		print("Dog")
+d=Dog()
+d.first()
+d.second()
