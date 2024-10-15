@@ -1,0 +1,19 @@
+class Animal():
+	def first(self):
+		print("Animals are:")
+class Dog(Animal):
+	def second(self):
+		print("Dog")
+class Cat(Animal):
+	def third(self):
+		print("Cat")
+class Rat(Animal):
+	def fourth(self):
+		print("Rat")
+d=Dog()
+d.first()
+d.second()
+c=Cat()
+c.third()
+r=Rat()
+r.fourth()
