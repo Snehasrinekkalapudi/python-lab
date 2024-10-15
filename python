@@ -1,0 +1,46 @@
+f=34
+c=(f-32)*5/9
+print("fahrenheit to celsius:",c)
+
+b=2
+h=4
+t=1/2*(b*h)
+print("area of triangle:",t)
+
+r=8
+pi=3.14
+a=2*pi*r
+print("perimeter of circle:",a)
+
+P=100
+T=1000
+R=10
+I=(P*T*R)/100
+print("simple interest:",I)
+
+A=10
+B=20
+print("before swapping:",A,B)
+A=A+B
+B=A-B
+A=A-B
+print("after swapping:",A,B)
+
+m=100
+n=1000
+print("before swapping:",m,n)
+temp=m
+m=n
+n=temp
+print("after swapping:",m,n)
+
+n=40
+sum=(n*(n+1))/2
+print("sum of n natural numbers:",sum)
+
+
+
+
+
+
+
