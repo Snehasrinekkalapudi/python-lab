@@ -1,0 +1,17 @@
+f=open("file.txt",'r')
+content=f.read(10)
+position=f.tell()
+print('current positon:',position)
+
+f=open('file.txt','r')
+print('initial position:',f.tell())
+f.seek(10)
+print('position after seek:',f.tell())
+print(f.read(5))
+print('positon after read:',f.tell()) 
+
+f=open('file.bin','wb')
+file.write(b'\x00\x01\x02\x03\x04\x05')
+f=open('file.bin','rb')
+print(f.read())
+
