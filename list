@@ -1,0 +1,10 @@
+def lists(num):
+	lar=num[0]
+	sma=num[0]
+	 for i in num:
+	 	if i>lar
+	 		lar=num
+	 	if i<sma
+	 		sma=num
+	 return lar,sma
+def([5,7,9,5,34,32])
