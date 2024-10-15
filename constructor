@@ -1,0 +1,8 @@
+class stu:
+	def __init__(self,rno,name):
+		self.a=rno
+		self.b=name
+		print(self.a)
+		print(self.b)
+
+s1=stu(23,"hari")
